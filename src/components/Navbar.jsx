@@ -9,7 +9,7 @@ function Navbar() {
 <Link to={"/"} className="font-bold text-3xl">Eraasoft</Link>
 <ul className="flex gap-10">
   <li>
-    <NavLink to={"/home"} className="font-bold text-xl hover:text-blue-400 py-2">Home</NavLink>
+    <NavLink to={"/"} className="font-bold text-xl hover:text-blue-400 py-2">Home</NavLink>
   </li>
   <li>
     <NavLink to={"/food"} className="font-bold text-xl hover:text-blue-400 py-2">Food</NavLink>
